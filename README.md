@@ -1,5 +1,9 @@
 # weblaze
 
+<p align="center">
+<img src="https://github.com/cybershang/weblaze/blob/93de39f2c842a900a7b31046724b30459f59314e/docs/media/weblaze.gif" width="360"/>
+</p>
+
 **Usage**:
 
 ```console
