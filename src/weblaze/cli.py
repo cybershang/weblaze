@@ -91,7 +91,7 @@ def edit_config():
             subprocess.run([editor, str(CONFIG_PATH)], check=True)
         elif os.name == "nt":
             # For Windows, use 'start' to open the file with the associated application
-            os.system(f"start {CONFIG_PATH}")
+            os.system(f"start '{CONFIG_PATH}'")
     except Exception as e:
         rich.print(f":boom: Error opening the configuration file: {e}")
 
