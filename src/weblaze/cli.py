@@ -13,7 +13,7 @@ import rich
 from weblaze.utils import compress_files, upload_files, get_files
 
 
-__version__ = "0.1.2"
+__version__ = "0.1.1"
 app = typer.Typer()
 
 CONFIG_DIR = Path.home() / f".config/{__package__}"
@@ -91,7 +91,7 @@ def edit_config():
             subprocess.run([editor, str(CONFIG_PATH)], check=True)
         elif os.name == "nt":
             # For Windows, use 'start' to open the file with the associated application
-            subprocess.run(['cmd', '/c', 'start', '""', f'"{CONFIG_PATH}"'], check=True)
+            subprocess.run(f'cmd /c "{CONFIG_PATH}"',shell=True, check=True)
     except Exception as e:
         rich.print(f":boom: Error opening the configuration file: {e}")
 
