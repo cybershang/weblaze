@@ -1,5 +1,16 @@
 # weblaze
 
+<p align="center">
+<img src="https://github.com/cybershang/weblaze/blob/93de39f2c842a900a7b31046724b30459f59314e/docs/media/weblaze.gif" width="360"/>
+</p>
+
+<p align="center">
+<a href="https://pypi.org/project/weblaze/"><img alt="PyPI - Version" src="https://img.shields.io/pypi/v/weblaze"></a>
+<a href="https://pypistats.org/packages/weblaze"><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dw/weblaze"></a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+</p>
+
+
 **Usage**:
 
 ```console
