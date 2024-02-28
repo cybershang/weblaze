@@ -13,7 +13,7 @@ import rich
 from weblaze.utils import compress_files, upload_files, get_files
 
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 app = typer.Typer()
 
 CONFIG_DIR = Path.home() / f".config/{__package__}"

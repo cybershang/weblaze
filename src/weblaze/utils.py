@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from b2sdk.bucket import Bucket
 import typer
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 app = typer.Typer()
 
 
